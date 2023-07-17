@@ -51,7 +51,7 @@ void heave_ho_act_1(void) {
         }
 
         if (o->oTimer < sHeaveHoTimings[i][0]) {
-            cur_obj_init_animation_with_accel_and_sound(2, sHeaveHoTimings[i][1]);
+            //cur_obj_init_animation_with_accel_and_sound(2, sHeaveHoTimings[i][1]);
             break;
         }
 
@@ -74,11 +74,11 @@ void heave_ho_act_2(void) {
         o->oHeaveHoTimedSpeed = 1.0f;
     }
 
-    cur_obj_init_animation_with_accel_and_sound(0, o->oHeaveHoTimedSpeed);
+    //cur_obj_init_animation_with_accel_and_sound(0, o->oHeaveHoTimedSpeed);
 
-    o->oForwardVel = o->oHeaveHoTimedSpeed * 10.0f;
-    s16 angleVel = o->oHeaveHoTimedSpeed * 0x400;
-    o->oMoveAngleYaw = approach_s16_symmetric(o->oMoveAngleYaw, o->oAngleToMario, angleVel);
+    //o->oForwardVel = o->oHeaveHoTimedSpeed * 10.0f;
+    //s16 angleVel = o->oHeaveHoTimedSpeed * 0x400;
+    //o->oMoveAngleYaw = approach_s16_symmetric(o->oMoveAngleYaw, o->oAngleToMario, angleVel);
 }
 
 void heave_ho_act_3(void) {
@@ -89,7 +89,7 @@ void heave_ho_act_3(void) {
     }
 
     if (o->oTimer == 1) {
-        cur_obj_init_animation_with_accel_and_sound(1, 1.0f);
+        //cur_obj_init_animation_with_accel_and_sound(1, 1.0f);
         o->numCollidedObjs = 20;
     }
 

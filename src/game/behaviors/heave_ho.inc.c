@@ -29,7 +29,7 @@ void bhv_heave_ho_throw_mario_loop(void) {
             gMarioObject->oInteractStatus |= INT_STATUS_MARIO_THROWN_BY_OBJ;
             if (o->oBehParams2ndByte == 0){
                 gMarioStates[0].forwardVel = -45.0f;
-            } elif (o->oBehParams2ndByte == 1){
+            } else if (o->oBehParams2ndByte == 1){
                 gMarioStates[0].forwardVel = 45.0f;
             }
             gMarioStates[0].vel[1] = 95.0f;

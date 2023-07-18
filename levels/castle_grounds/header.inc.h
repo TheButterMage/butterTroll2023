@@ -6,7 +6,7 @@ extern Lights1 castle_grounds_dl_f3dlite_material_lights;
 extern Lights1 castle_grounds_dl_f3dlite_material_001_lights;
 extern u8 castle_grounds_dl_SUPER_MARIO_64_27ECE31D_0_2_all_ci8[];
 extern u8 castle_grounds_dl_SUPER_MARIO_64_27ECE31D_0_2_all_pal_rgba16[];
-extern Vtx castle_grounds_dl_Plane_mesh_layer_1_vtx_0[1254];
+extern Vtx castle_grounds_dl_Plane_mesh_layer_1_vtx_0[1143];
 extern Gfx castle_grounds_dl_Plane_mesh_layer_1_tri_0[];
 extern Vtx castle_grounds_dl_Plane_001_mesh_layer_1_vtx_0[4];
 extern Gfx castle_grounds_dl_Plane_001_mesh_layer_1_tri_0[];
